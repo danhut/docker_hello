@@ -1,5 +1,5 @@
 FROM python:latest
 COPY hello.py .
-CMD ["pip", "install", "Flask"]
+CMD ["sudo", "pip", "install", "Flask"]
 
 CMD ["python", "hello.py"]
